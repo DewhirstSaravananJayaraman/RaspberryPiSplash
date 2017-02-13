@@ -26,8 +26,11 @@ This is a quick and dirty solution for an unanimated custom splash screen during
 <li>Add "loglevel=3 logo.nologo" at the end of the line</li>
 <br>so now your line will look like this below:-
 <br>"dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait loglevel=3 logo.nologo"
+</ul>
 <br>
-<li>Reboot and watch your custom splash screen come to action.
+<li>Reboot and watch your custom splash screen come to action.</li>
+<br>
+<br>
 <br>
 Alternatively you can run the below command which will run the script from this repository and create and copy all the above to your respective folder.
 At your prompt type
